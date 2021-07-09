@@ -1,0 +1,2 @@
+module Zadaca1 {
+}

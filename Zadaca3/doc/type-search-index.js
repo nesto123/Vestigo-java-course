@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"hr.vestigo.java.tecaj.zadaca3","l":"BasketballMatch"},{"p":"hr.vestigo.java.tecaj.zadaca3","l":"Team"},{"p":"hr.vestigo.java.tecaj.zadaca3","l":"Zadatak1"}];updateSearchResults();

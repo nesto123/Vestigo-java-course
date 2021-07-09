@@ -1,0 +1,24 @@
+1) Napišite program koji prolazi kroz sve jednoznamenkaste, dvoznamenkaste i troznamenkaste brojeve, te ispisuje sve one koje spadaju u jednu od sljedece dvije kategorije:
+a) Troznamekasti prosti brojevi
+b) Jednoznamenaksti i dvoznamenkasti palindromi
+
+
+2) Napišite klasu koja reprezentira kosarkasku utakmicu na sljedeci nacin:
+a) Sadrži konstantu koja nam govori koliko imamo igraca na terenu (5 po ekipi)
+b) Instancira dva objekta (tima), te za ta dva objekta poziva metodu u kojoj se provjerava pobjednicki tim po sljedecim pravilima:
+-> prvo provjerava statse za obje ekipe, te ako nisu validni (1-100) baca poruku i završava metodu
+-> zatim provjerava broj koseva pojednine ekipe, te proglašava pobjednika uz opasku da li je pobjednicka ekipa napravila više ili manje faula
+-> navesti boju dresa ekipe, broj zabijenih koseva i broj faula
+
+Primjer instanciranja: 
+Team blue = new Team("Blue", 55, 77);
+Team white = new Team("White", 56, 89);
+
+Team sadrži sljedece:
+varijable boja dresa, stats za obranu(int) i stats za napad(int)
+
+boolean provjeriStatistiku(int napad, int obrana) -> vrati false ako je bilo koji od ulaznih atributa izvan ranga. Inace, vrati true
+int brojZabijenihKoseva(int napad) -> izbacuje zadnju znamenku iz ulaznog atributa, te ostatak (bez zadnje znamenke) množi sa 12. Ako je jednoznamenkasta, vrati 0
+int brojNapravaljnihPrekrsaja(int obrana) -> (100 - obrana), pa izbaci zadnju znamenku iz tog broja
+
+Varijable i metode trebaju postivati camelCase i moraju biti napisane na engleskom.
